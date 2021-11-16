@@ -33,12 +33,10 @@ project.afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.tuyrt'
-                artifactId = 'bottomnavigationbar'
-                version = '1.0'
+                groupId = 'com.tuyrt'               // lib 包名 - 名称：com.tuyrt
+                artifactId = 'bottomnavigationbar'  // lib包 名称： bottomnavigationbar
+                version = '1.0'                     // 版本
             }
         }
     }
 }
-
-// 3. 如果能编译测试（gradlew publishToMavenLocal）成功，构建git: git update-index --chmod=+x gradlew
