@@ -1,4 +1,4 @@
-package studio.mandysa.bottomnavigationbar;
+package com.tuyrt.bottomnavigationbar;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

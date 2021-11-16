@@ -1,4 +1,4 @@
-package studio.mandysa.bottomnavigationbar;
+package com.tuyrt.bottomnavigationbar;
 
 import android.content.Context;
 import android.util.AttributeSet;
